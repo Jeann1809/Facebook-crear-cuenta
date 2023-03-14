@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crear cuenta</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="form">
+          <div class="flex spc-bet">
+            <div class="tit">Registrarte</div>
+            <div>
+              <a href="./index.html"
+                ><span class="material-symbols-outlined"> close </span></a
+              >
+            </div>
+          </div>
+          <div class="sub">Es rápido y fácil</div>
+          <div class="linea"></div>
+          <div class="flex">
+            <input class="input-btn" type="text" placeholder=" Nombre" />
+            <input class="input-btn" type="text" placeholder=" Apellidos" />
+          </div>
+          <input
+            class="input-rec"
+            type="text"
+            placeholder=" Número de móvil o correo electrónico"
+          />
+          <input
+            class="input-rec"
+            type="text"
+            placeholder=" Contraseña nueva"
+          />
+          <div class="label">
+            Fecha de nacimiento
+            <span class="material-symbols-outlined icon"> help </span>
+          </div>
+          <div>
+            <input
+              class="input-date"
+              type="number"
+              max="31"
+              min="1"
+              id="fecha"
+            />
+            <select id="select" class="input-date" name="" id="">
+              <option value="">ene</option>
+              <option value="">feb</option>
+              <option value="">mar</option>
+              <option value="">abr</option>
+              <option value="">may</option>
+              <option value="">jun</option>
+              <option value="">jul</option>
+              <option value="">agt</option>
+              <option value="">sep</option>
+              <option value="">oct</option>
+              <option value="">nov</option>
+              <option value="">dic</option>
+            </select>
+            <input class="input-date" type="number" />
+          </div>
+          <div class="label">
+            Género <span class="icon material-symbols-outlined"> help </span>
+          </div>
+          <div class="flex">
+            <div class="input-gen-1">
+              <label for="mujer">Mujer</label>
+              <input type="radio" name="genero" id="mujer" />
+            </div>
+            <div class="input-gen-2">
+              <label for="hombre">Hombre</label>
+              <input type="radio" name="genero" id="hombre" />
+            </div>
+            <div class="input-gen-3">
+              <label for="personalizado">Personalizado</label>
+              <input type="radio" name="genero" id="personalizado" />
+            </div>
+          </div>
+          <div class="pequeño">
+            Es posible que usuarios de nuestro servicio hayan subido tu
+            información de contacto a Facebook. <a class="link" href="#">Más información</a>
+          </div>
+          <div class="pace"></div>
+          <div class="pequeño">
+            Al hacer clic en Registrarte, aceptas las
+            <a class="link" href="#">Condiciones</a>, la
+            <a class="link" href="#">Política de privacidad</a> y la
+            <a class="link" href="#">Política de cookies</a>. Es posible que te enviemos
+            notificaciones por SMS, que podrás desactivar cuando quieras.
+          </div>
+          <div class="space"></div>
+          <button type="submit" class="btn-green">Registrarte</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
